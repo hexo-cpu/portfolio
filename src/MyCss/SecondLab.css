@@ -1,0 +1,122 @@
+.Lab-Main2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+.Lab-coMain2 .Lab-p12{
+    max-width: 143px;
+    width: 100%;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(152, 87, 211, 1);
+
+
+}
+.Lab-coMain2 .Lab-p22{
+    max-width: 287px;
+    width: 100%;
+    height: 51px;
+    color: rgba(204, 214, 246, 1);
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.coMain-pre2{
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%); 
+    backdrop-filter: blur(80px);
+    max-width: 550px;
+    width: 100%;
+    border-radius: 14px;
+    position: absolute;
+    z-index: 100;
+    right: 100px;
+}
+.coMain-pre2 p{
+    max-width: 590px;
+    width: 100%;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    color: rgba(204, 214, 246, 1);
+    padding: 20px;
+
+}
+.LabLeft-div2{
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+    max-width: 642px;
+    padding: 80px 0px;
+    width: 100%;
+    position: relative;
+
+
+}
+.LabLeft-div2 .LabLeft-img12{
+    position: relative;
+    
+}
+.LabLeft-div2 .LabLeft-img22{
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.Lab-Imgs2{
+    position: absolute;
+    bottom: 80px;
+}
+
+@media (max-width: 1200px){
+    .coMain-pre2{
+        max-width: 450px;
+    }
+}
+
+
+@media (max-width: 1050px){
+    .Lab-Main2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .coMain-pre2{
+        
+        position: unset;
+        max-width: 100%;
+    }
+    .Lab-Imgs2 {
+    position: absolute;
+    bottom: unset;
+
+}
+.LabLeft-div2{
+    width: unset;
+    max-width: unset;
+}
+    
+}
+
+@media (max-width: 650px){
+.coMain-pre2{
+    height: 210px;
+    max-width: 450px;
+}
+.LabLeft-img12{
+    width: 100%;
+}
+.LabLeft-img22{
+    width: 95%;
+}
+.Lab-Imgs2{
+    position: unset;
+    margin-top: 35px;
+}
+.container{
+    max-width: unset;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.LabLeft-div2 .LabLeft-img22{
+    left: 15px;
+}
+}

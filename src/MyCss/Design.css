@@ -1,0 +1,13 @@
+.design{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 1000px){
+    .design img{
+        max-width: 700px;
+        width: 100%;
+    }
+}
